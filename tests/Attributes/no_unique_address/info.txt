@@ -1,0 +1,4 @@
+[[no_unique_address]] was presented in C++20.
+This attribute helps compiler to optimise the memory allocated for the instances by allowing for non-static instances
+with empty types do not extra memory in structure or class.
+It is useful to use with allocators or functors that can contain empty types.
