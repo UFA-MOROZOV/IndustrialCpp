@@ -43,4 +43,5 @@ int main() {
 
     // std::cout << color; // error, no matching << operator
     // int i = color;      // error: cannot convert
+    return 0;
 }
