@@ -1,9 +1,0 @@
-[[noreturn]] attribute was presented in C++11 standard. It can be applied only to functions.
-It is used to show that the control flow will not be returned to the caller.
-Therefore, the function that has this attribute must terminate the program, throw an error or have infinite loop.
-When the compiler sees the function with this attribute that returns the control flow, it will show warning.
-When such function returns control flow, the behavior of the program is runtime-undefined.
-Compiler tries to optimise the code based on this attribute:
-1) It not generates the code after the call of the function.
-2) Tries to predict which parts of the program are not going to be executed.
-3) When the function is called, compiler does not contain the state of a stack.

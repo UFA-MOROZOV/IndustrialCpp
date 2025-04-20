@@ -1,7 +1,0 @@
-[[unlikely]] was presented in C++20.
-This attribute shows that the current branch of the code is less likely to be executed.
-That helps the compiler to optimise code for better performance.
-Compiler redistribute resources (like CPU cache) for likely branches.
-Unlikely branches may be placed in separate sections to free instructions cache.
-
-Excessive usage of either of these attributes [likely/unlikely] is liable to result in performance degradation.

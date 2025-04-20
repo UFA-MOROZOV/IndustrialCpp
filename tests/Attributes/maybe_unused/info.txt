@@ -1,4 +1,0 @@
-[[maybe_unused]] attributed was presented in C++17.
-It uses for hiding compilers' warnings about unused instances, which can help from warning spam.
-Can be useful in production for marking instances that will be used in the future.
-Does not affect the program workflow in any way.
